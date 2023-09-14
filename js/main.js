@@ -42,3 +42,18 @@ if (menuLinks.length > 0) {
     }
   }
 }
+
+const functionalSlider = new Swiper(".functional-swiper", {
+  loop: true,
+  slidesPerView: 1,
+  spaceBetween: 20,
+
+  autoplay: {
+    delay: 2500,
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
