@@ -1,0 +1,1 @@
+# qazpro.kz
